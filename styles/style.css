@@ -415,22 +415,33 @@ Responsiveness For Mobile
         padding-right: 10px;
         
     }
-    /* Responsive Players Section End */
-
-
+   
     /* High-lights section start */
     .high-light{
         margin-top: 0px;
         border-top: 2px solid gray;
         border-bottom: 2px solid grey;
     }
-    .left-high-light{
-        margin-bottom: 30px;
-        padding: 0px 10px;
-    }
     .origin{
         grid-template-columns: repeat(1,1fr);
+        
     }
+    .left-high-light{
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .left-high-light h4{
+        text-align: center;
+        font-size: 30px;
+    }
+    .left-high-light a{
+        width: 100%;
+        padding: 15px 0px;
+        font-size: 22px;
+    }
+    
     /* High-lights section End */
 
     /* Gallery Section Starts-Responsive */
